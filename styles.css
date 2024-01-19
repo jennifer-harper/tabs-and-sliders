@@ -46,7 +46,6 @@ body {
 
 body {
   background: #000;
-  color: #000;
 }
 
 .swiper {
@@ -59,15 +58,37 @@ body {
   background-position: center;
 }
 
-.swiperOne {
-  height: 80%;
-  box-sizing: border-box;
-}
-
 .swiper-slide img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.sortedblocks {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+.sortedblocks img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.swiper-slide button {
+  border-width: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swiper-slide button p {
+  padding: 40px 60px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
