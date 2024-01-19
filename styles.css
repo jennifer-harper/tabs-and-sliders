@@ -7,7 +7,7 @@ body {
 }
 
 .sortedblocks {
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -78,6 +78,7 @@ body {
 .tabs-nav ul {
   display: flex;
 }
+.tabs-nav ul a,
 .tabs-nav ul li {
   width: 100%;
 }
