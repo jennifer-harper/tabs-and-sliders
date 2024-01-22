@@ -67,14 +67,6 @@ body {
   padding: 0;
 }
 
-.tabs-nav {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  background-color: red;
-  z-index: 100;
-  bottom: 140px;
-}
 .tabs-nav ul {
   display: flex;
 }
